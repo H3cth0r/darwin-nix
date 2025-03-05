@@ -37,10 +37,5 @@
       # automatic renumber windows
       set -g renumber-windows on
     '';
-
-    # Optional: Install TPM (Tmux Plugin Manager)
-    plugins = with pkgs.tmuxPlugins; [
-      vim-tmux-navigator
-    ];
   };
 }
