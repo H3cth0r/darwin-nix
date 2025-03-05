@@ -14,6 +14,9 @@
     wrap = false;
     ignorecase = true;
     smartcase = true;
+    clipboard = "unnamedplus";
   };
+
+  imports = [ ./nvim-tree.nix ];
 }
 
