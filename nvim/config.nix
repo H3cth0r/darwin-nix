@@ -25,7 +25,10 @@
     set iskeyword+=-
   '';
 
-  imports = [ ./nvim-tree.nix ];
+  imports = [ 
+    ./nvim-tree.nix 
+    ./telescope.nix 
+  ];
 
   plugins = {
     tmux-navigator.enable = true;       # Enables vim-tmux-navigator
